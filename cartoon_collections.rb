@@ -30,6 +30,7 @@ def find_valid_calls(planeteer_calls)
     element == valid_calls
   planeteer_calls.find { |element| element == valid_calls}
   end
+  element
   #binding.pry 
 end
  
