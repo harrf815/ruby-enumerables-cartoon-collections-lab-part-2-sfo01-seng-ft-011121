@@ -29,8 +29,9 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.each do |element|
     element == valid_calls
   planeteer_calls.find { |element| element == valid_calls}
-  end
   element
+  end
+  
   #binding.pry 
 end
  
